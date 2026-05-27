@@ -27,7 +27,7 @@ void setup() {
   Serial.println("Starting SpO2 Plotter...");
 
   particleSensor.setup(
-    0x3F,  // LED brightness
+    0x1F,  // LED brightness
     4,     // sample average
     2,     // Red + IR
     100,   // sample rate
